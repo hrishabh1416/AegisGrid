@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+supabase
+pydantic
+websockets
+python-dotenv
