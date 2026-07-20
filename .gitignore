@@ -17,6 +17,10 @@ logs/
 dist/
 build/
 
+# Database
+*.db
+*.sqlite3
+
 # VS Code
 .vscode/
 
