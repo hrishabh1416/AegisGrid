@@ -194,7 +194,10 @@ AegisGrid/
 ```
 
 
-🧪 Comprehensive Verification & Test SuitesAegisGrid includes three distinct testing mechanisms:Verification ScriptScopeCommandrun_simulation.pyStandalone Evaluator CLI Trace (30s)python run_simulation.pyverify_aegisgrid.pyMachine Learning Unit Test Suitepython verify_aegisgrid.pyverify_e2e.pyProgrammatic Async WebSocket & REST Looppython verify_e2e.py
+🧪 Comprehensive Verification & Test Suite- sAegisGrid includes three distinct testing mechanisms Verification Script Scope Command 
+run_simulation.py:  Standalone Evaluator CLI Trace (30s) : python run_simulation.py 
+verify_aegisgrid.py: Machine Learning Unit Test Suite : python verify_aegisgrid.py 
+verify_e2e.py : Programmatic Async WebSocket & REST Loop : python verify_e2e.py
 
 🛡️ License
 Distributed under the MIT License. See LICENSE for more information
