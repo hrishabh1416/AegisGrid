@@ -31,7 +31,14 @@ python -m uvicorn main:app --reload --port 8000
 # 4. Execute Standalone Evaluator Diagnostic Trace (Terminal 2)
 python run_simulation.py
 
-📸 Dashboard & SOC Interface Walkthrough(Replace image paths below with actual screenshots or video GIFs from your running web dashboard)1. Real-Time Operations & Network TopologyLive Asset Visualizer: Displays real-time operational status for registered network nodes (GATEWAY-01, DB-PRIMARY, AUTH-SERVICE). Assets dynamically transition between SECURE, WARNING, and ISOLATED states as telemetry streams through the pipeline.2. Threat Forensics & Post-Mortem Export ModalAutomated Forensics Panel: Generates audit-ready post-mortem JSON artifacts detailing ML decision score deviations ($Score < 0.000$), triggered MITRE ATT&CK tactics, and operator sign-off histories.🏗️ Technical Architecture & DataflowAegisGrid uses a decoupled monorepo structure designed for sub-millisecond threat evaluation, real-time frontend propagation, and resilient containment execution.Plaintext                               ┌──────────────────────────────────┐
+📸 Dashboard & SOC Interface Walkthrough : <img width="959" height="410" alt="image" src="https://github.com/user-attachments/assets/2355178b-f1fa-4fb4-9693-29dbca4f6a0e" /> <img width="955" height="404" alt="image" src="https://github.com/user-attachments/assets/fd150f82-4d62-42ec-bf9f-8685e6c43467" />
+: Displays real-time operational status for registered network nodes (GATEWAY-01, DB-PRIMARY, AUTH-SERVICE). Assets dynamically transition between SECURE, WARNING, and ISOLATED states as telemetry streams through the pipeline.2. <img width="384" height="375" alt="image" src="https://github.com/user-attachments/assets/efbe3bb9-8879-4d02-b3ce-6b1aa797d990" />
+ Threat Forensics & Post-Mortem Export ModalAutomated Forensics Panel: Generates audit-ready post-mortem JSON artifacts detailing ML decision score deviations ($Score < 0.000$), triggered MITRE ATT&CK tactics, and operator sign-off histories.
+
+🏗️ Technical Architecture & DataflowAegisGrid uses a decoupled monorepo structure designed for sub-millisecond threat evaluation, real-time frontend propagation, and resilient containment execution.Plaintext
+
+
+                        ┌──────────────────────────────────┐
                                │ Inbound Telemetry Stream (HTTP)  │
                                └────────────────┬─────────────────┘
                                                 │
