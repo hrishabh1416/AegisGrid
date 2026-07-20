@@ -28,7 +28,10 @@ pip install -r backend/requirements.txt
 # 3. Launch Core FastAPI ASGI Server (Terminal 1)
 python -m uvicorn main:app --reload --port 8000
 
-# 4. Execute Standalone Evaluator Diagnostic Trace (Terminal 2)
+# 4. Launch frontend (Terminal 2)
+npm run dev
+
+# 5. Execute Standalone Evaluator Diagnostic Trace (Terminal 3)
 python run_simulation.py
 
 📸 Dashboard & SOC Interface Walkthrough : <img width="959" height="410" alt="image" src="https://github.com/user-attachments/assets/2355178b-f1fa-4fb4-9693-29dbca4f6a0e" /> <img width="955" height="404" alt="image" src="https://github.com/user-attachments/assets/fd150f82-4d62-42ec-bf9f-8685e6c43467" />
